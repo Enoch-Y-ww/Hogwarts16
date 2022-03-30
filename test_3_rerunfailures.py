@@ -1,23 +1,23 @@
 import time
 import pytest
-import string
 
-class Test_demo():
+
+class TestOfDemo:
     @pytest.mark.demo
-    def test_one(self):
+    def test_one_1(self):
         time.sleep(1)
         print("这是第一个用例")
         assert 1 == 1
 
     @pytest.mark.demo
     @pytest.mark.own
-    def test_two(self):
+    def test_one_2(self):
         time.sleep(1)
         print("这是第二个用例")
         assert 1 == 1
 
     # @pytest.mark.flaky(reruns=2,reruns_delay=1)
-    def test_three(self):
+    def test_one_3(self):
         print("这是第三个用例")
         time.sleep(1)
         assert 1 == 1
@@ -25,47 +25,47 @@ class Test_demo():
         # pytest.assume(2 == 3)
         # pytest.assume(4 == 4)
 
-    def test_two_i(self):
+    def test_one_4(self):
         time.sleep(1)
         print("这是第二个用例")
         assert 1 == 1
 
-    def test_two_p(self):
+    def test_one_5(self):
         time.sleep(1)
         print("这是第二个用例")
         assert 1 == 1
 
-    def test_two3(self):
+    def test_one_6(self):
         time.sleep(1)
 
         assert 1 == 1
 
-    def test_two4(self):
+    def test_one_7(self):
         time.sleep(1)
         assert 1 == 1
 
-    def test_two5(self):
+    def test_one_8(self):
         time.sleep(1)
         assert 1 == 1
 
-    def test_two6(self):
+    def test_one_9(self):
         time.sleep(1)
         assert 1 == 1
 
-    def test_two7(self):
+    def test_one_10(self):
         time.sleep(1)
         assert 1 == 1
 
-    def test_two8(self):
+    def test_one_11(self):
         time.sleep(1)
         assert 1 == 1
 
-    def test_two9(self):
+    @pytest.mark.run(order=2)
+    def test_one_12(self):
         time.sleep(1)
         assert 1 == 1
 
-    def test_two10(self):
+    @pytest.mark.run(order=1)
+    def test_one_13(self):
         time.sleep(1)
         assert 1 == 1
-
-

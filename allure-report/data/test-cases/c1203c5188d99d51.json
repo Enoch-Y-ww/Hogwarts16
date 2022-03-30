@@ -1,0 +1,97 @@
+{
+  "uid" : "c1203c5188d99d51",
+  "name" : "减法运算验证",
+  "fullName" : "test_calc.TestOfCalc#test_sub",
+  "historyId" : "ee88bdf505755d9737ad70dfb214ca03",
+  "time" : {
+    "start" : 1648647965266,
+    "stop" : 1648647965266,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1648647965207,
+      "stop" : 1648647965207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1648647965288,
+      "stop" : 1648647965288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据运算验证"
+  }, {
+    "name" : "story",
+    "value" : "减法验算："
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOfCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OOPCQFE"
+  }, {
+    "name" : "thread",
+    "value" : "14888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2000"
+  }, {
+    "name" : "b",
+    "value" : "1000"
+  }, {
+    "name" : "expected",
+    "value" : "1000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1203c5188d99d51.json",
+  "parameterValues" : [ "2000", "1000", "1000" ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "2f5c94e840bccc15",
+  "name" : "乘法运算验证",
+  "fullName" : "test_calc.TestOfCalc#test_mul",
+  "historyId" : "309d2292e486525568fd59b555edc117",
+  "time" : {
+    "start" : 1648647965274,
+    "stop" : 1648647965274,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1648647965207,
+      "stop" : 1648647965207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1648647965288,
+      "stop" : 1648647965288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据运算验证"
+  }, {
+    "name" : "story",
+    "value" : "乘法验算："
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOfCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OOPCQFE"
+  }, {
+    "name" : "thread",
+    "value" : "14888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "expected",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f5c94e840bccc15.json",
+  "parameterValues" : [ "3", "0", "0" ]
+}
